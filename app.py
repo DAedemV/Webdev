@@ -10,9 +10,11 @@ with left_block:
 
 with center_block:
     st.write('# CENTER BLOCK')
+    st.header('Mon deuxieme container')
 
 with right_block:
     st.write('# RIGHT BLOCK')
+
 
 
 
