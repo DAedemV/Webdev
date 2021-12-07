@@ -4,6 +4,12 @@ import plotly.express as px
 
 import pandas as pd
 
+requirements.txt
+contenant :
+plotly==5.3
+pandas==1.3
+streamlit==1.1
+
 st.set_page_config(layout='wide')
 
 left_block, center_block, right_block = st.columns([2, 2, 2])
