@@ -10,7 +10,7 @@ with left_block:
 
 with center_block:
     st.write('# CENTER BLOCK')
-    st.header('Mon deuxieme container')
+    st.header('y second container')
 
 with right_block:
     st.write('# RIGHT BLOCK')
