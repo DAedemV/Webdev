@@ -1,10 +1,11 @@
+from pkg_resources import Requirement
 import streamlit as st
 
 import plotly.express as px
 
 import pandas as pd
 
-contenant :
+Requirement
 plotly==5.3
 pandas==1.3
 streamlit==1.1
