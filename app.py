@@ -1,5 +1,11 @@
 import streamlit as st
 
+import plotly.express as px
+
+import pandas as pd
+
+st.set_page_config(layout='wide')
+
 left_block, center_block, right_block = st.columns([2, 2, 2])
 
 with left_block:
