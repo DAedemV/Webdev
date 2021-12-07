@@ -5,7 +5,7 @@ import plotly.express as px
 
 import pandas as pd
 
-Requirement
+Requirement.txt
 plotly==5.3
 pandas==1.3
 streamlit==1.1
