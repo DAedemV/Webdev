@@ -4,7 +4,6 @@ import plotly.express as px
 
 import pandas as pd
 
-requirements.txt
 contenant :
 plotly==5.3
 pandas==1.3
