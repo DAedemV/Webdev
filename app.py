@@ -11,6 +11,7 @@ markt_campaign = pd.read_csv('marketing_campaign.csv')
 
 markt_campaign.info()
 
+st.title('Dashboard campagne marketing')
 
 left_block, center_block, right_block = st.columns([2, 2, 2])
 
