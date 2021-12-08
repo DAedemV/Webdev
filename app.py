@@ -9,7 +9,7 @@ st.set_page_config(layout='wide')
 
 markt_campaign = pd.read_csv('marketing_campaign.csv')
 
-markt_campaign.head()
+markt_campaign.info()
 
 
 left_block, center_block, right_block = st.columns([2, 2, 2])
