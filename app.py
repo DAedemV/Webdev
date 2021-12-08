@@ -7,7 +7,10 @@ import pandas as pd
 
 st.set_page_config(layout='wide')
 
-marketing_campaign = pd.read_csv('marketing_campaign.csv')
+markt_campaign = pd.read_csv('marketing_campaign.csv')
+
+markt_campaign.head()
+
 
 left_block, center_block, right_block = st.columns([2, 2, 2])
 
