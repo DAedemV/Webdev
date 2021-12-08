@@ -1,12 +1,9 @@
 from pkg_resources import Requirement
 import streamlit as st
 
-import pandas as pd
+import plotly.express as px
 
-Requirement.txt
-plotly==5.3
-pandas==1.3
-streamlit==1.1
+import pandas as pd
 
 st.set_page_config(layout='wide')
 
