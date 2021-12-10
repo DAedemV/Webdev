@@ -13,7 +13,7 @@ st.set_page_config(layout='wide')
 
 ## Titre et organistaion du dashboard
 
-st.title('Dashboard campagne marketing')
+st.title('Dashboard campaing marketing')
 
 left_block, right_block = st.columns([1, 1])
 
