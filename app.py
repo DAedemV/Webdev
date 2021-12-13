@@ -19,8 +19,24 @@ left_block, right_block = st.columns([1, 1])
 
 ## Import des données
 
-df = pd.read_csv('marketing_campaign.csv')
+# Chargement des données
+df = pd.read_excel('marketing_campaign.xls', sheet_name='marketing_campaign')
 
+#Transformer les données
+del df['Complain']
+#st.dataframe(df)
+
+# Création d'un nouveau JDD
+df2 = df.copy() 
+df2.reset_index(inplace=True)
+#st.dataframe(df2)
+
+#Calculer l'âge à partir de l'année de naissance
+age = []
+for i in df2['Year_Birth']:
+    age.append(2021 - i)
+
+df2['Age'] = age
 
 
 
