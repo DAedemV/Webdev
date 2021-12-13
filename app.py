@@ -19,8 +19,7 @@ left_block, right_block = st.columns([1, 1])
 
 ## Import des données
 
-df = pd.read_csv('marketing_campaign.csv', sheet_name='marketing_campaign.csv')
-
+df = pd.read.csv("marketing_campaign.csv", sep=";", header=TRUE, stringsAsFactors = TRUE)
 
 
 
