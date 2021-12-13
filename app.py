@@ -20,7 +20,8 @@ left_block, right_block = st.columns([1, 1])
 ## Import des données
 
 # Chargement des données
-df = pd.read_csv('marketing_campaign')
+
+mkt_camp = pd.read_csv('marketing_campaign')
 
 
 
