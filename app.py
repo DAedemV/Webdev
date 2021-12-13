@@ -19,7 +19,7 @@ left_block, right_block = st.columns([1, 1])
 
 ## Import des données
 
-mrkt_camp = pd.read_csv('marketing_campaign.csv')
+df = pd.read_csv('marketing_campaign.csv')
 
 del df['Complain']
 #st.dataframe(df)
