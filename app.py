@@ -21,7 +21,7 @@ left_block, right_block = st.columns([1, 1])
 
 mrkt_camp = pd.read_csv('marketing_campaign.csv')
 
-print(mrkt_camp)
+
 
 
 
