@@ -101,16 +101,14 @@ with left_block:
 
     st.plotly_chart(fig2)
 
-#Regroupement de la fréquence d'achat pour les personnes mariées
+#Répartition par acceptation de la campagne des mariés
 
-product_choice = df2[['Marital_Status','Response']].groupby(by=['Marital_Status'], as_index=False).count()
-#st.write(product_choice)
+product_choice = df2[['Education','Response']].groupby(by=['Education'], as_index=False).count()
 
-fig3 = px.pie(df2.query("Marital_Status == 'Married'").round(),
+fig3 = px.pie(df2.query("Education == 'PhD'").round(),
 values='Response',
 names='Response',
-title='Répartition de l\'acceptation et du refus de la campagne marketing',
-labels={'Frequency': 'Nombre de jours de visite', 'Marital_Status':'Statut marital'},
+title='Répartition de l\'acceptation et du refus de la campagne par les mariés',
 color_discrete_sequence=px.colors.sequential.Agsunset
 )
 fig3.update_traces(textposition='inside', textinfo='percent+label')
@@ -127,7 +125,6 @@ legend_title_font_color='red',
 legend_title_font_size=15,
 legend_title_font_family='Quicksand')
 st.plotly_chart(fig3)
-
 
 
 
