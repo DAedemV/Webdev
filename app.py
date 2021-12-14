@@ -101,7 +101,7 @@ with left_block:
 
     st.plotly_chart(fig2)
 
-#Répartition par acceptation de la campagne des mariés
+#Répartition de la réponse de la campagne des mariés
 
 product_choice = df2[['Education','Response']].groupby(by=['Education'], as_index=False).count()
 
